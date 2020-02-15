@@ -21,12 +21,16 @@ export default class App extends Component {
     this.setState({ displayValue: 0 })
   }
 
+  setOperation = operation => {
+
+  }
+
   render() {
     return (
       <View style={styles.container}>
         <Display value={this.state.displayValue} />
         <View style={styles.buttons}>
-          <Button label='AC' />
+          <Button label='AC' triple onClick={this.clearMemory} />
           <Button label='/' />
           <Button label='7' />
           <Button label='8' />
