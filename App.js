@@ -13,6 +13,10 @@ export default class App extends Component {
     displayValue: '0'
   }
 
+  addDigit = n => {
+    this.setState({ displayValue: n})
+  }
+
   render() {
     return (
       <View style={styles.container}>
