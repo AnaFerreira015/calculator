@@ -7,11 +7,16 @@ import {
 import Button from "./src/components/Button"
 import Display from "./src/components/Display"
 
+const initialState = {
+  displayValue: "0",
+  clearDisplay: false,
+  operation: null,
+  values: [0, 0],
+  current: 0,
+}
 
 export default class App extends Component {
-  state = {
-    displayValue: '0'
-  }
+  state = { ...initialState }
 
   addDigit = n => {
     this.setState({ displayValue: n})
