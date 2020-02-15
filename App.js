@@ -57,7 +57,8 @@ export default class App extends Component {
         displayValue: values[0],
         operation: equals ? null : operation,
         current: equals ? 0 : 1,
-        clearDisplay: !equals,
+        // clearDisplay: !equals,
+        clearDisplay: true,
         values,
       })
     }
