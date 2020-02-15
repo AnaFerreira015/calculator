@@ -27,6 +27,12 @@ export default class App extends Component {
     const displayValue = currentValue + n
 
     this.state({ displayValue, clearDisplay: false })
+
+    if (n !== ".") {
+      const newValue = parseFloat(displayValue)
+      const values = [...this.state.values]
+      values[this.state.current] = newValue
+    }
   }
 
   clearMemory = () => {
