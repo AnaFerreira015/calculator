@@ -32,6 +32,7 @@ export default class App extends Component {
       const newValue = parseFloat(displayValue)
       const values = [...this.state.values]
       values[this.state.current] = newValue
+      this.state({ values })
     }
   }
 
