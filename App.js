@@ -25,6 +25,8 @@ export default class App extends Component {
       || this.state.clearDisplay
     const currentValue = clearDisplay ? '' : this.state.displayValue
     const displayValue = currentValue + n
+
+    this.state({ displayValue, clearDisplay: false })
   }
 
   clearMemory = () => {
