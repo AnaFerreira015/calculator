@@ -21,4 +21,4 @@ Seeing **device** in the right column means the device is connected
 
 ### Final result:
 
-<img src="calculator.jpeg" alt="Calculadora em react nativo" width="50%" />
+<img src="calculator.jpeg" alt="Calculadora em react nativo" width="35%" />
