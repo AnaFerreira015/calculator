@@ -18,3 +18,7 @@ Seeing **device** in the right column means the device is connected
 
 ### iOS
 ``react-native log-ios``
+
+### Final result:
+
+<img src="calculator.jpeg" alt="Calculadora em react nativo">
